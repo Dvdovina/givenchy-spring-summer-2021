@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'Prompt';
+  font-weight: 400;
+  font-display: swap;
+  src: url('./Prompt/Prompt-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Prompt';
+  font-weight: 500;
+  font-display: swap;
+  src: url('./Prompt/Prompt-Medium.ttf') format('truetype');
+}
