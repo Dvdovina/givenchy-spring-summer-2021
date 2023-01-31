@@ -1,0 +1,15 @@
+.burger-menu {
+  display: grid;
+  gap: 16px;
+  grid-area: menu;
+  grid-template-columns: minmax(min-content, max-content);
+  grid-template-rows: minmax(min-content, max-content);
+  max-width: 237px;
+  min-height: fit-content;
+  width: 100%;
+  z-index: 2;
+}
+
+
+
+

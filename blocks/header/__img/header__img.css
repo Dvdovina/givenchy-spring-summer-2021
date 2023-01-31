@@ -1,0 +1,16 @@
+.header__img {
+  height: 900px;
+  margin-top: -20px;
+  object-fit: cover;
+  overflow: hidden;
+  position: absolute;
+  width: 700px;
+  z-index: 1;
+}
+
+@media (max-width:1439px) {
+  .header__img {
+    width: 486px;
+    height: 646px;
+  }
+}
