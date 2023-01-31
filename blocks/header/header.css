@@ -1,0 +1,19 @@
+.header {
+  min-width: 1440px;
+  background-color: #E7E7E2;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+@media (max-width:1399px) {
+  .header {
+    min-width: 768px;
+  }
+}
+
+@media (max-width:767px) {
+  .header {
+    min-width: 320px;
+  }
+}
