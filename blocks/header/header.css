@@ -10,20 +10,29 @@
   grid-template-rows: repeat(3, minmax(min-content, max-content));
   margin: 0 auto;
   min-height: 900px;
-  min-width: 1440px;
+  max-width: 1440px;
   width: 100%;
-  padding: 20px 20px 318px 24px;
+  padding: 20px 20px 0 24px;
 }
 
 @media (max-width:1439px) {
   .header {
+    grid-template-columns: 1fr 485px;
     max-width: 768px;
     min-height: 646px;
+    padding: 20px 20px 0 24px;
   }
 }
 
 @media (max-width:767px) {
   .header {
-    min-width: 320px;
+    max-width: 320px;
+    grid-template-areas:
+      "menu"
+      "title"
+      "subscribe";
+    grid-template-columns: 1fr;
+    min-height: 426px;
+    padding-top: 16px;
   }
 }

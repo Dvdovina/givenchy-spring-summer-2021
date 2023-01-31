@@ -23,3 +23,12 @@
   opacity: 0.7;
   transition: 0.35s linear;
 }
+
+@media (max-width:767px) {
+  .header__subscribe-btn {
+    font-size: 14px;
+    height: 44px;
+    line-height: 20px;
+    max-width: 280px;
+  }
+}

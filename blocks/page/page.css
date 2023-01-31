@@ -8,9 +8,9 @@
   display: flex;
   flex-direction: column;
   font-family: 'Prompt', Arial, sans-serif;
+  gap: 80px;
   margin: 0 auto;
   min-height: 100vh;
   text-rendering: optimizeLegibility;
   width: 100%;
-  gap: 80px;
 }

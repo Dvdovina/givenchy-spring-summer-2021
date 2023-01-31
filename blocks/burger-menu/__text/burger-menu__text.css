@@ -10,3 +10,11 @@
   text-align: center;
   text-transform: uppercase;
 }
+
+@media (max-width:767px) {
+  .burger-menu__text {
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 44px;
+  }
+}
