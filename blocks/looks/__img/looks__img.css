@@ -1,0 +1,21 @@
+.looks__img {
+  height: 436px;
+  margin: 0;
+  object-fit: cover;
+  padding: 0;
+  width: 350px;
+}
+
+@media (max-width:1439px) {
+  .looks__img {
+    height: 302px;
+    width: 243px;
+  }
+}
+
+@media (max-width:767px) {
+  .looks__img {
+    height: 174px;
+    width: 140px;
+  }
+}

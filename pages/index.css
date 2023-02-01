@@ -30,6 +30,9 @@
 
 /* looks */
 @import url('../blocks/looks/looks.css');
+@import url('../blocks/looks/__grid/looks__grid.css');
+@import url('../blocks/looks/__grid-item/looks__grid-item.css');
+@import url('../blocks/looks/__img/looks__img.css');
 
 /* footer */
 @import url('../blocks/footer/footer.css');
