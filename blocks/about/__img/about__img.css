@@ -1,5 +1,6 @@
 .about__img {
   height: 875px;
+  margin-left: -175px;
   object-fit: cover;
   width: 700px;
 }

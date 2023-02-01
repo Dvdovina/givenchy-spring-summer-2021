@@ -8,6 +8,7 @@
 /* main text */
 @import url('../blocks/main-text/main-text.css');
 @import url('../blocks/main-text/_size/main-text_size_small.css');
+@import url('../blocks/main-text/_place/main-text_place_about.css');
 
 /* section-titles */
 @import url('../blocks/section-title/section-title.css');

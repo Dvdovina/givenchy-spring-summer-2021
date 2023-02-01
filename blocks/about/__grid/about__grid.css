@@ -1,9 +1,10 @@
 .about__grid {
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: repeat(2, minmax(min-content, max-content));
+  grid-template-columns: 700px 700px;
   grid-template-rows: minmax(min-content, max-content);
   margin: 0 auto;
   max-width: 1440px;
   padding: 0px 20px;
+  row-gap: 80px;
 }

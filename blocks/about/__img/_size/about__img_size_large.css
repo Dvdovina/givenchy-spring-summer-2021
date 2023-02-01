@@ -1,4 +1,6 @@
 .about__img_size_large{
   height: 1095px;
+  margin-left: -174px;
   width: 875px;
+  z-index: 0;
 }
