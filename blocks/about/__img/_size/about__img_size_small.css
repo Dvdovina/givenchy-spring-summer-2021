@@ -10,3 +10,14 @@
     width: 304px;
   }
 }
+
+@media (max-width:767px) {
+  .about__img_size_small {
+    grid-column-end: 1;
+    grid-column-start: 1;
+    grid-row-end: 5;
+    grid-row-start: 5;
+    height: 280px;
+    width: 280px;
+  }
+}

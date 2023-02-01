@@ -20,3 +20,9 @@
     gap: 60px;
   }
 }
+
+@media (max-width:767px) {
+  .page {
+    gap: 40px;
+  }
+}
