@@ -8,3 +8,11 @@
   padding: 0px 20px;
   row-gap: 80px;
 }
+
+@media (max-width:1439px) {
+  .about__grid {
+    grid-template-columns: 364px 362px;
+    max-width: 768px;
+    row-gap: 70px;
+  }
+}

@@ -1,6 +1,15 @@
-.about__img_size_large{
+.about__img_size_large {
   height: 1095px;
   margin-left: -174px;
   width: 875px;
   z-index: 0;
+}
+
+@media (max-width:1439px) {
+  .about__img_size_large {
+    height: 607px;
+    margin-left: -124px;
+    padding-top: 50px;
+    width: 485px;
+  }
 }

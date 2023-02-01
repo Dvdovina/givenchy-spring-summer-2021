@@ -14,3 +14,9 @@
   text-rendering: optimizeLegibility;
   width: 100%;
 }
+
+@media (max-width:1439px) {
+  .page {
+    gap: 60px;
+  }
+}

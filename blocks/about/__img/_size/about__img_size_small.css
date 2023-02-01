@@ -1,5 +1,12 @@
-.about__img_size_small{
+.about__img_size_small {
   height: 618px;
   margin-left: 0;
   width: 618px;
+}
+
+@media (max-width:1439px) {
+  .about__img_size_small {
+    height: 304px;
+    width: 304px;
+  }
 }

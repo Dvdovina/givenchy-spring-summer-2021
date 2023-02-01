@@ -4,3 +4,12 @@
   object-fit: cover;
   width: 700px;
 }
+
+@media (max-width:1439px) {
+  .about__img {
+    align-self: center;
+    height: 452px;
+    margin-left: -121px;
+    width: 364px;
+  }
+}
