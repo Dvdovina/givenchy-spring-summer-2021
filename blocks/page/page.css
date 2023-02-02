@@ -5,24 +5,11 @@
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
   align-items: center;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr;
   font-family: 'Prompt', Arial, sans-serif;
-  gap: 80px;
   margin: 0 auto;
   min-height: 100vh;
   text-rendering: optimizeLegibility;
   width: 100%;
-}
-
-@media (max-width:1439px) {
-  .page {
-    gap: 60px;
-  }
-}
-
-@media (max-width:767px) {
-  .page {
-    gap: 40px;
-  }
 }

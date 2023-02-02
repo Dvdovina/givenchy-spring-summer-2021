@@ -9,6 +9,7 @@
 @import url('../blocks/main-text/main-text.css');
 @import url('../blocks/main-text/_size/main-text_size_small.css');
 @import url('../blocks/main-text/_place/main-text_place_about.css');
+@import url('../blocks/main-text/_place/main-text_place_footer.css');
 
 /* section-titles */
 @import url('../blocks/section-title/section-title.css');
@@ -36,6 +37,16 @@
 
 /* footer */
 @import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__grid/footer__grid.css');
+
+/* form */
+@import url('../blocks/subscribe-form/subscribe-form.css');
+@import url('../blocks/subscribe-form/__fieldset/subscribe-form__fieldset.css');
+@import url('../blocks/subscribe-form/__user-text/subscribe-form__user-text.css');
+@import url('../blocks/subscribe-form/__submit-btn/subscribe-form__submit-btn.css');
+@import url('../blocks/subscribe-form/__check-container/subscribe-form__check-container.css');
+@import url('../blocks/subscribe-form/__checkbox/subscribe-form__checkbox.css');
+@import url('../blocks/subscribe-form/__check-label/subscribe-form__check-label.css');
 
 /* burger-menu */
 @import url('../blocks/burger-menu/burger-menu.css');

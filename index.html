@@ -88,10 +88,12 @@
             <img class="looks__img" alt="Female Model Posing on Red Background" src="./images/looks/look_red-bkg.png">
           </li>
           <li class="looks__grid-item">
-            <img class="looks__img" alt="Male Model Posing on White Background" src="./images/looks/look_off-white-bkg.svg">
+            <img class="looks__img" alt="Male Model Posing on White Background"
+              src="./images/looks/look_off-white-bkg.svg">
           </li>
           <li class="looks__grid-item">
-            <img class="looks__img" alt="Female Model Posing on Blue Background" src="./images/looks/look_light-blue-bkg.svg">
+            <img class="looks__img" alt="Female Model Posing on Blue Background"
+              src="./images/looks/look_light-blue-bkg.svg">
           </li>
           <li class="looks__grid-item">
             <img class="looks__img" alt="Female Model Posing on Pink Background" src="./images/looks/look_pink-bkg.png">
@@ -105,12 +107,27 @@
 
     <!-- Footer -->
     <footer class="footer" id="footer">
-
+      <div class="footer__grid">
+        <p class="main-text main-text_size_small main-text_place_footer">Subscribe to the newsletterand be the first to
+          know about new collection's drop date and news</p>
+        <form class="subscribe-form">
+          <fieldset class="subscribe-form__fieldset">
+            <input class="subscribe-form__user-text" type="email" name="email" id="email"
+              placeholder="Please enter your email address">
+            <button class="subscribe-form__submit-btn" type="submit">Submit</button>
+          </fieldset>
+          <label for="consent" class="subscribe-form__check-container">
+            <input class="subscribe-form__checkbox" type="checkbox" name="consent" id="consent">
+            <span class="subscribe-form__check-label">I consent to the processing of my data by GIVENCHY in accordance
+              with the conditions set forth in the Privacy Policy</span>
+          </label>
+        </form>
+        <p class="main-text main-text_size_small main-text_place_footer">© 2021, Givenchy. Some rights reserved</p>
+      </div>
     </footer>
-  </div>
 
-  <div class="burger-menu_opened" id="burger-menu"></div>
-  <!-- Burger-menu -->
+    <div class="burger-menu_opened" id="burger-menu"></div>
+    <!-- Burger-menu -->
 
   </div>
   <script src="./script/burger-menu.js"></script>
