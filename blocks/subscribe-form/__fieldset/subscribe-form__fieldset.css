@@ -6,4 +6,19 @@
   margin: 0;
   padding: 12px 24px;
   width: 592px;
+
+}
+
+@media (max-width:1439px) {
+  .subscribe-form__fieldset {
+    width: 378px;
+  }
+}
+
+@media (max-width:767px) {
+  .subscribe-form__fieldset {
+    height: 44px;
+    padding: 10px 48px;
+    width: 280px;
+  }
 }

@@ -11,3 +11,13 @@
   text-transform: uppercase;
   width: 108px;
 }
+
+
+@media (max-width:767px) {
+  .subscribe-form__submit-btn {
+    font-size: 14px;
+    height: 44px;
+    line-height: 20px;
+    width: 280px;
+  }
+}

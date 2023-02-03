@@ -6,3 +6,15 @@
   padding: 40px 0px;
   row-gap: 40px;
 }
+
+@media (max-width:1439px) {
+  .footer__grid {
+    max-width: 468px;
+  }
+}
+
+@media (max-width:767px) {
+  .footer__grid {
+    max-width: 280px;
+  }
+}
