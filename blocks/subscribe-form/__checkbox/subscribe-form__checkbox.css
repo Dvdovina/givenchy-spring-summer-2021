@@ -1,0 +1,15 @@
+.subscribe-form__checkbox {
+  appearance: none;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 12px 8px;
+  border: 1px solid #FFFFFF;
+  height: 20px;
+  min-width: 20px;
+  object-fit: contain;
+}
+
+.subscribe-form__checkbox:checked {
+  background-image: url('../../../images/icons/check_large.svg');
+}
