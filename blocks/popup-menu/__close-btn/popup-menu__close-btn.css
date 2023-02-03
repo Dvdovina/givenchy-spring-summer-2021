@@ -1,0 +1,10 @@
+.popup-menu__close-btn {
+  background-color: transparent;
+  background-image: url('../../../images/icons/close-menu-icon_large.svg');
+  background-repeat: no-repeat;
+  background-size: 48px 48px;
+  border: none;
+  height: 48px;
+  width: 48px;
+  z-index: 6;
+}
