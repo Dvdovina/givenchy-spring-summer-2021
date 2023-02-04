@@ -1,16 +1,19 @@
 .popup-menu {
   background-color: black;
   box-sizing: border-box;
-  display: none;
+  display: flex;
   flex-direction: column;
   gap: 245px;
   height: 810px;
   left: 0px;
   opacity: 0;
   overflow: hidden;
+  overflow: hidden;
   padding: 20px;
   position: fixed;
   top: 0px;
+  transition: visibility .3s linear, opacity .3s ease-out;
+  visibility: hidden;
   width: 480px;
   z-index: 5;
 }
@@ -20,7 +23,6 @@
     gap: 72px;
     height: 360px;
     margin: 0;
-    min-width: 320px;
-    width: 100%;
+    max-width: 320px;
   }
 }
