@@ -1,0 +1,14 @@
+.popup-menu__navigation {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  justify-content: center;
+}
+
+@media (max-width:767px) {
+  .popup-menu__navigation {
+    gap: 40px;
+    margin: 0;
+  }
+}
