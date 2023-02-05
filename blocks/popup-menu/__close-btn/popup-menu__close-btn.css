@@ -5,7 +5,8 @@
   background-size: 48px 48px;
   border: none;
   cursor: pointer;
-  height: 48px;
+  min-height: 48px;
+  text-overflow: ellipsis;
   width: 48px;
   z-index: 6;
 }
@@ -19,7 +20,7 @@
   .popup-menu__close-btn {
     background-image: url('../../../images/icons/close-menu-icon_small.svg');
     background-size: 24px 24px;
-    height: 24px;
+    min-height: 24px;
     width: 24px;
   }
 }
