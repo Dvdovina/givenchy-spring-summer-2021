@@ -11,4 +11,4 @@ The purpose of the page is to engage the visitors and potential buyers by demons
 - Adaptive Design - made for desktop, tablet and mobile (1440px/768px/320px)
 
 
-Link to [GitHub Pages]().
+Link to [GitHub Pages](https://dvdovina.github.io/givenchy-spring-summer-2021/).
