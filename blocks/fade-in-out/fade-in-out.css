@@ -1,6 +1,6 @@
 .fade-in-out {
   animation-delay: .3s;
-  animation-duration: 2s;
+  animation-duration: 2.5s;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
   animation-name: fadeInOut;
