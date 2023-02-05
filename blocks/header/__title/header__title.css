@@ -22,7 +22,6 @@
 @media (max-width:767px) {
   .header__title {
     font-size: 24px;
-    font-weight: 500;
     line-height: 32px;
     padding-top: 75px;
   }
