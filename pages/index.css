@@ -64,3 +64,7 @@
 /* animations */
 @import url('../blocks/fade-in-left/fade-in-left.css');
 @import url('../blocks/fade-in-right/fade-in-right.css');
+@import url('../blocks/fade-in-out/fade-in-out.css');
+@import url('../blocks/fade-in-out/_delay/fade-in-out_delay_fast.css');
+@import url('../blocks/fade-in-out/_delay/fade-in-out_delay_slow.css');
+@import url('../blocks/fade-in-out/_delay/fade-in-out_delay_medium.css');
