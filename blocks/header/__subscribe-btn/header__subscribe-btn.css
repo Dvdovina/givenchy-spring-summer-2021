@@ -6,7 +6,7 @@
   font-size: 16px;
   font-weight: 500;
   grid-area: subscribe;
-  height: 48px;
+  min-height: 48px;
   letter-spacing: 0.02em;
   line-height: 24px;
   margin: 32px 0 0 0;
@@ -17,6 +17,8 @@
   white-space: nowrap;
   width: 100%;
   z-index: 3;
+  padding: 12x 30.5px;
+
 }
 
 .header__subscribe-btn:hover {
@@ -27,8 +29,9 @@
 @media (max-width:767px) {
   .header__subscribe-btn {
     font-size: 14px;
-    height: 44px;
+    min-height: 44px;
     line-height: 20px;
-    max-width: 280px;
+    min-width: 280px;
+    padding: 12px 13.5px;
   }
 }
