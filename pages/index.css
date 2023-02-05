@@ -59,3 +59,8 @@
 @import url('../blocks/popup-menu/__close-btn/popup-menu__close-btn.css');
 @import url('../blocks/popup-menu/__navigation/popup-menu__navigation.css');
 @import url('../blocks/popup-menu/__link/popup-menu__link.css');
+
+
+/* animations */
+@import url('../blocks/fade-in-left/fade-in-left.css');
+@import url('../blocks/fade-in-right/fade-in-right.css');
