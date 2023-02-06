@@ -18,7 +18,7 @@
 
 @media (max-width:767px) {
   .burger-menu__btn {
-    background-image: url('../../../images/icons/open-menu-icon_small.svg');
+    background-size: 24px 24px;
     min-height: 24px;
     min-width: 24px;
   }
