@@ -2,7 +2,7 @@
 //Variables
 const popupMenu = document.querySelector('.popup-menu');
 const popupCloseBtn = popupMenu.querySelector('.popup-menu__close-btn')
-const popupOpenBtn = document.querySelector('.burger-menu__btn')
+const popupOpenBtn = document.querySelector('.header__navigation-btn')
 
 
 //Universal function to open popups

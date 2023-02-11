@@ -1,4 +1,4 @@
-.burger-menu__text {
+.header__navigation-text {
   align-self: center;
   color: #0A0A0A;
   font-size: 16px;
@@ -12,7 +12,7 @@
 }
 
 @media (max-width:767px) {
-  .burger-menu__text {
+  .header__navigation-text {
     font-size: 14px;
     line-height: 20px;
     padding-left: 44px;

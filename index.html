@@ -16,12 +16,20 @@
     <!-- Header -->
     <header class="header" id="header">
       <div class="header__grid">
-        <img src="./images/header/male-model.png" class="header__img" alt="Male Model">
-        <div class="burger-menu">
-          <button class="burger-menu__btn" type="button">
-            <span class="burger-menu__text">Menu</span>
+        <div class="header__navigation">
+          <button class="header__navigation-btn" type="button">
+            <span class="header__navigation-text">Menu</span>
           </button>
+          <div class="popup-menu" id="popup-menu">
+            <button class="popup-menu__close-btn" type="button" title="close button"></button>
+            <nav class="popup-menu__navigation">
+              <a href="index.html#about" class="popup-menu__link">About</a>
+              <a href="index.html#looks" class="popup-menu__link">Looks</a>
+              <a href="index.html#footer" class="popup-menu__link">Subscribe</a>
+            </nav>
+          </div>
         </div>
+        <img src="./images/header/male-model.png" class="header__img" alt="Male Model">
         <h1 class="header__title">GIVENCHY
           SPRING&nbsp;SUMMER&nbsp;2021
           BY&nbsp;MATTHEW M. WILLIAMS
@@ -131,17 +139,6 @@
         <p class="main-text main-text_size_small main-text_place_footer">© 2021, Givenchy. Some rights reserved</p>
       </div>
     </footer>
-
-
-    <!-- Burger-menu -->
-    <div class="popup-menu" id="popup-menu">
-      <button class="popup-menu__close-btn" type="button" title="close button"></button>
-      <nav class="popup-menu__navigation">
-        <a href="index.html#about" class="popup-menu__link">About</a>
-        <a href="index.html#looks" class="popup-menu__link">Looks</a>
-        <a href="index.html#footer" class="popup-menu__link">Subscribe</a>
-      </nav>
-    </div>
   </div>
   <script src="./script/burger-menu.js"></script>
   <script src="./script/random-fade-in-out.js"></script>

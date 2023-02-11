@@ -17,9 +17,19 @@
 /* header */
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__grid/header__grid.css');
+@import url('../blocks/header/__navigation/header__navigation.css');
+@import url('../blocks/header/__navigation-btn/header__navigation-btn.css');
+@import url('../blocks/header/__navigation-text/header__navigation-text.css');
 @import url('../blocks/header/__title/header__title.css');
 @import url('../blocks/header/__subscribe-btn/header__subscribe-btn.css');
 @import url('../blocks/header/__img/header__img.css');
+
+/* popup-menu */
+@import url('../blocks/popup-menu/popup-menu.css');
+@import url('../blocks/popup-menu/_opened/popup-menu_opened.css');
+@import url('../blocks/popup-menu/__close-btn/popup-menu__close-btn.css');
+@import url('../blocks/popup-menu/__navigation/popup-menu__navigation.css');
+@import url('../blocks/popup-menu/__link/popup-menu__link.css');
 
 /* about */
 @import url('../blocks/about/about.css');
@@ -48,23 +58,7 @@
 @import url('../blocks/subscribe-form/__checkbox/subscribe-form__checkbox.css');
 @import url('../blocks/subscribe-form/__check-label/subscribe-form__check-label.css');
 
-/* burger-menu */
-@import url('../blocks/burger-menu/burger-menu.css');
-@import url('../blocks/burger-menu/__text/burger-menu__text.css');
-@import url('../blocks/burger-menu/__btn/burger-menu__btn.css');
-
-/* popup-menu */
-@import url('../blocks/popup-menu/popup-menu.css');
-@import url('../blocks/popup-menu/_opened/popup-menu_opened.css');
-@import url('../blocks/popup-menu/__close-btn/popup-menu__close-btn.css');
-@import url('../blocks/popup-menu/__navigation/popup-menu__navigation.css');
-@import url('../blocks/popup-menu/__link/popup-menu__link.css');
-
-
 /* animations */
 @import url('../blocks/fade-in-left/fade-in-left.css');
 @import url('../blocks/fade-in-right/fade-in-right.css');
 @import url('../blocks/fade-in-out/fade-in-out.css');
-@import url('../blocks/fade-in-out/_delay/fade-in-out_delay_fast.css');
-@import url('../blocks/fade-in-out/_delay/fade-in-out_delay_slow.css');
-@import url('../blocks/fade-in-out/_delay/fade-in-out_delay_medium.css');
