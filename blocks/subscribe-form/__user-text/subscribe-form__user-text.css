@@ -19,3 +19,7 @@
     width: 100%;
   }
 }
+
+.subscribe-form__user-text:invalid:required {
+  background-color: transparent;
+}
