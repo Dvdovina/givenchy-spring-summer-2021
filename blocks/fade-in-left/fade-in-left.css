@@ -1,5 +1,5 @@
 .fade-in-left {
-  animation-delay: .8s;
+  animation-delay: 0.8s;
   animation-duration: 300ms;
   animation-fill-mode: both;
   animation-name: fadeInLeft;
@@ -18,8 +18,8 @@
   }
 }
 
-@media (max-width: 767px){
-  .fade-in-left{
+@media (max-width: 767px) {
+  .fade-in-left {
     animation: none;
   }
 }

@@ -1,6 +1,6 @@
 .header__navigation-text {
   align-self: center;
-  color: #0A0A0A;
+  color: #0a0a0a;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: 0.02em;
@@ -11,7 +11,7 @@
   text-transform: uppercase;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .header__navigation-text {
     font-size: 14px;
     line-height: 20px;

@@ -4,14 +4,14 @@
   width: 618px;
 }
 
-@media (max-width:1439px) {
+@media (max-width: 1439px) {
   .about__img_size_small {
     height: 304px;
     width: 304px;
   }
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .about__img_size_small {
     grid-column: 1;
     grid-row: 5;

@@ -4,7 +4,7 @@
   grid-column: span 2;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .subscribe-form__check-container {
     grid-column: unset;
     padding-top: 20px;

@@ -8,8 +8,9 @@
 }
 
 @keyframes fadeInOut {
-  0%, 100%{
-    opacity: .8;
+  0%,
+  100% {
+    opacity: 0.8;
   }
 
   70% {

@@ -1,6 +1,6 @@
 .popup-menu_opened {
   display: flex;
   opacity: 1;
-  transition: opacity .3s linear;
+  transition: opacity 0.3s linear;
   visibility: visible;
 }

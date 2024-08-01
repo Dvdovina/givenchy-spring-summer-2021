@@ -6,7 +6,6 @@
   grid-template-rows: minmax(min-content, max-content);
   left: 0px;
   max-width: 237px;
-  min-height: fit-content;
   padding-left: 20px;
   padding-top: 20px;
   position: fixed;

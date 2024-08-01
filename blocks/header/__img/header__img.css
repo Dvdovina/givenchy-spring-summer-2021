@@ -8,14 +8,14 @@
   z-index: 1;
 }
 
-@media (max-width:1439px) {
+@media (max-width: 1439px) {
   .header__img {
     height: 646px;
     width: 486px;
   }
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .header__img {
     height: 426px;
     width: 290px;

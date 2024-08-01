@@ -14,7 +14,7 @@
   width: 91.89%;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .subscribe-form__user-text {
     width: 100%;
   }

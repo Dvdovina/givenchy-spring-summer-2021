@@ -1,4 +1,4 @@
-.header__grid{
+.header__grid {
   box-sizing: border-box;
   display: grid;
   grid-template-areas:
@@ -15,7 +15,7 @@
   position: relative;
 }
 
-@media (max-width:1439px) {
+@media (max-width: 1439px) {
   .header__grid {
     grid-template-columns: 1fr 485px;
     max-width: 768px;
@@ -23,7 +23,7 @@
   }
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .header__grid {
     max-width: 320px;
     grid-template-areas:

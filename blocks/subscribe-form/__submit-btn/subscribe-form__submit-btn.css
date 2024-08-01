@@ -1,6 +1,6 @@
 .subscribe-form__submit-btn {
-  border: 0.5px solid #FFFFFF;
-  color: #0A0A0A;
+  border: 0.5px solid #ffffff;
+  color: #0a0a0a;
   cursor: pointer;
   font-size: 16px;
   font-weight: 500;
@@ -13,8 +13,7 @@
   width: 108px;
 }
 
-
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .subscribe-form__submit-btn {
     font-size: 14px;
     min-height: 44px;
@@ -24,8 +23,8 @@
 }
 
 .subscribe-form__submit-btn:hover {
-  background-color: #0A0A0A;
-  border: 0.5px solid #0A0A0A;
+  background-color: #0a0a0a;
+  border: 0.5px solid #0a0a0a;
   color: white;
   transition: 0.2s linear;
 }

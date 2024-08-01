@@ -5,7 +5,7 @@
   line-height: 24px;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .subscribe-form__check-label {
     font-size: 14px;
     line-height: 20px;

@@ -1,6 +1,6 @@
 .header__navigation-btn {
   background-color: transparent;
-  background-image: url('../../../images/icons/open-menu-icon_large.svg');
+  background-image: url("../../../images/icons/open-menu-icon_large.svg");
   background-repeat: no-repeat;
   border: 0;
   box-sizing: border-box;
@@ -16,7 +16,7 @@
   transition: 0.3s linear;
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
   .header__navigation-btn {
     background-size: 24px 24px;
     min-height: 24px;
