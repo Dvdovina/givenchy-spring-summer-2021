@@ -1,9 +1,6 @@
 .page {
   -moz-osx-font-smoothing: grayscale;
-  -moz-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
   align-items: center;
   font-family: 'Prompt', Arial, sans-serif;
   margin: 0 auto;
